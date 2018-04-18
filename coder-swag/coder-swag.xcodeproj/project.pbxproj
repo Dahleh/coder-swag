@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDE748262087C37900365DB0 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE748252087C37900365DB0 /* CategoryCell.swift */; };
 		CDF25ECE2086BFF600A67B46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF25ECD2086BFF600A67B46 /* AppDelegate.swift */; };
-		CDF25ED02086BFF600A67B46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF25ECF2086BFF600A67B46 /* ViewController.swift */; };
+		CDF25ED02086BFF600A67B46 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF25ECF2086BFF600A67B46 /* CategoriesVC.swift */; };
 		CDF25ED32086BFF600A67B46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF25ED12086BFF600A67B46 /* Main.storyboard */; };
 		CDF25ED52086BFF700A67B46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF25ED42086BFF700A67B46 /* Assets.xcassets */; };
 		CDF25ED82086BFF700A67B46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF25ED62086BFF700A67B46 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CDE748252087C37900365DB0 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		CDF25ECA2086BFF600A67B46 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF25ECD2086BFF600A67B46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDF25ECF2086BFF600A67B46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDF25ECF2086BFF600A67B46 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		CDF25ED22086BFF600A67B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDF25ED42086BFF700A67B46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF25ED72086BFF700A67B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +37,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CDE748222087C2E000365DB0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDF25ECF2086BFF600A67B46 /* CategoriesVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CDE748232087C2E700365DB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CDE748242087C2EC00365DB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDE748252087C37900365DB0 /* CategoryCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CDF25EC12086BFF600A67B46 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +79,10 @@
 		CDF25ECC2086BFF600A67B46 /* coder-swag */ = {
 			isa = PBXGroup;
 			children = (
+				CDE748242087C2EC00365DB0 /* View */,
+				CDE748232087C2E700365DB0 /* Model */,
+				CDE748222087C2E000365DB0 /* Controller */,
 				CDF25ECD2086BFF600A67B46 /* AppDelegate.swift */,
-				CDF25ECF2086BFF600A67B46 /* ViewController.swift */,
 				CDF25ED12086BFF600A67B46 /* Main.storyboard */,
 				CDF25ED42086BFF700A67B46 /* Assets.xcassets */,
 				CDF25ED62086BFF700A67B46 /* LaunchScreen.storyboard */,
@@ -135,8 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF25ED02086BFF600A67B46 /* ViewController.swift in Sources */,
+				CDF25ED02086BFF600A67B46 /* CategoriesVC.swift in Sources */,
 				CDF25ECE2086BFF600A67B46 /* AppDelegate.swift in Sources */,
+				CDE748262087C37900365DB0 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
