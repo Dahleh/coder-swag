@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD3F99B6208D53DE00C8DF19 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3F99B5208D53DE00C8DF19 /* ProductCell.swift */; };
+		CD3F99B8208D5C4700C8DF19 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3F99B7208D5C4700C8DF19 /* Product.swift */; };
 		CDE748262087C37900365DB0 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE748252087C37900365DB0 /* CategoryCell.swift */; };
 		CDE748282087C60B00365DB0 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE748272087C60B00365DB0 /* Category.swift */; };
 		CDE7482B2087C85F00365DB0 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE7482A2087C85F00365DB0 /* DataServices.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		CD3F99B5208D53DE00C8DF19 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		CD3F99B7208D5C4700C8DF19 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		CDE748252087C37900365DB0 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		CDE748272087C60B00365DB0 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		CDE7482A2087C85F00365DB0 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				CDE748272087C60B00365DB0 /* Category.swift */,
+				CD3F99B7208D5C4700C8DF19 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				CD3F99B6208D53DE00C8DF19 /* ProductCell.swift in Sources */,
 				CDE748262087C37900365DB0 /* CategoryCell.swift in Sources */,
 				CDE748282087C60B00365DB0 /* Category.swift in Sources */,
+				CD3F99B8208D5C4700C8DF19 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
